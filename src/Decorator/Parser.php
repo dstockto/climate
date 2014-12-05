@@ -10,7 +10,7 @@ abstract class Parser
      * @var array $current;
      */
 
-    protected $current;
+    protected $current = [];
 
     /**
      * All of the possible styles available
@@ -18,7 +18,7 @@ abstract class Parser
      * @var array $all
      */
 
-    protected $all;
+    protected $all = [];
 
     /**
      * An array of the tags that should be searched for
