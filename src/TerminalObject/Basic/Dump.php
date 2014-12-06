@@ -1,8 +1,8 @@
 <?php
 
-namespace League\CLImate\TerminalObject;
+namespace League\CLImate\TerminalObject\Basic;
 
-class Dump extends BaseTerminalObject
+class Dump extends BasicTerminalObject
 {
     /**
      * The data to convert to JSON

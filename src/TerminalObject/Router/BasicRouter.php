@@ -17,7 +17,7 @@ class BasicRouter extends BaseRouter implements RouterInterface
 
     public function path($class)
     {
-        return $this->getPath($this->shortName($class));
+        return $this->getPath('Basic\\' . $this->shortName($class));
     }
 
     /**
