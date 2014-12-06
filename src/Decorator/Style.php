@@ -132,7 +132,7 @@ class Style
 
     public function parser()
     {
-        return ParserFactory::getInstance($this->current(), $this->all());
+        return ParserFactory::getInstance($this->current(), new Tags($this->all()));
     }
 
     /**
