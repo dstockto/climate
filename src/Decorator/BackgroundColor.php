@@ -27,6 +27,7 @@ class BackgroundColor extends Color
         if ($color) {
             $color += self::ADD;
         }
+
         return $color;
     }
 
