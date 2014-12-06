@@ -174,7 +174,7 @@ class Columns extends BaseTerminalObject
 
     protected function setColumnCount($column_width)
     {
-        $this->column_count = floor($this->util->dimensions->width() / $column_width);
+        $this->column_count = floor($this->util->width() / $column_width);
     }
 
     /**
