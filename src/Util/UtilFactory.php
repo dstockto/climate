@@ -37,7 +37,7 @@ class UtilFactory
 
     public function width()
     {
-        return $this->getDimension($this->system->width(), 80);
+        return (int) $this->getDimension($this->system->width(), 80);
     }
 
     /**
@@ -48,7 +48,7 @@ class UtilFactory
 
     public function height()
     {
-        return $this->getDimension($this->system->height(), 25);
+        return (int) $this->getDimension($this->system->height(), 25);
     }
 
     /**
