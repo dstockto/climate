@@ -76,9 +76,6 @@ use League\CLImate\Util\UtilFactory;
  * @method mixed clear()
  *
  * @method CLImate addArt(string $dir)
- *
- * @method string description()
- * @method string usage()
  */
 class CLImate
 {
